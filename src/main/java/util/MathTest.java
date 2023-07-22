@@ -9,17 +9,9 @@ package util;
  */
 public class MathTest {
     public static void main(String[] args) {
-        float i = 4.1f;
-       // System.out.println(i);
-        float i1 = 4.5f;
-        float i2 = 4.8f;
-        int i3 = (int) i;
-        System.out.println(i3);
-        i3 = (int) i1;
-        System.out.println(i3);
-        i3 = (int) i2;
-        System.out.println(i3);
-        System.out.println(Math.ceil(11.3));
-        System.out.println(Math.floor(11.3));
+        int i = 0;
+        i = i++ + ++i + i++ + ++i;
+        System.out.println(i);
+
     }
 }
