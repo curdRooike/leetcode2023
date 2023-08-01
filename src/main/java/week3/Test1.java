@@ -13,9 +13,7 @@ public class Test1 {
     }
     public int alternateDigitSum(int n) {
         int ans = 0, flag = 1;
-        int i = 0;
         while (n > 0){
-            i++;
             ans += flag * (n % 10);
             flag = -flag;
             n /= 10;
